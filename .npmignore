@@ -1,0 +1,9 @@
+test/
+coverage/
+src/
+theme.config
+semantic.json
+tasks/**/oauth.js
+example/
+tasks/
+gulpfile.js

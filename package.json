@@ -1,6 +1,6 @@
 {
   "name": "snaphy-web-theme",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "title": "Semantic UI",
   "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
   "homepage": "http://www.semantic-ui.com",
@@ -14,7 +14,7 @@
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
   "scripts": {
-    "install": "gulp install"
+    "build": "gulp install"
   },
   "peerDependencies": {
     "better-console": "*",
