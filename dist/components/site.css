@@ -13,13 +13,12 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 13px;
 }
 body {
   margin: 0px;
@@ -27,10 +26,10 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 13px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
   font-smoothing: antialiased;
 }
 
@@ -44,27 +43,27 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  line-height: 1.28571429em;
-  margin: calc(2rem -  0.14285714em ) 0em 1rem;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.38461538em;
+  margin: calc(2rem -  0.19230769em ) 0em 1rem;
   font-weight: bold;
   padding: 0em;
 }
 h1 {
   min-height: 1rem;
-  font-size: 2rem;
+  font-size: 1.38461538rem;
 }
 h2 {
-  font-size: 1.71428571rem;
+  font-size: 1.23076923rem;
 }
 h3 {
-  font-size: 1.28571429rem;
+  font-size: 1.07692308rem;
 }
 h4 {
-  font-size: 1.07142857rem;
+  font-size: 1rem;
 }
 h5 {
-  font-size: 1rem;
+  font-size: 0.92307692rem;
 }
 h1:first-child,
 h2:first-child,
@@ -125,32 +124,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #333B4F;
 }
 
 /* Force Simple Scrollbars */
