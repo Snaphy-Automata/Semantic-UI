@@ -14173,15 +14173,15 @@ img.ui.bordered.image {
 /* browsers require these rules separate */
 
 .ui.input > input::-webkit-input-placeholder {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 
 .ui.input > input::-moz-placeholder {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 
 .ui.input > input:-ms-input-placeholder {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 
 /*******************************
@@ -14266,17 +14266,17 @@ img.ui.bordered.image {
 
 .ui.input.focus > input::-webkit-input-placeholder,
 .ui.input > input:focus::-webkit-input-placeholder {
-  color: #a4adc4;
+  color: #8591b0;
 }
 
 .ui.input.focus > input::-moz-placeholder,
 .ui.input > input:focus::-moz-placeholder {
-  color: #a4adc4;
+  color: #8591b0;
 }
 
 .ui.input.focus > input:-ms-input-placeholder,
 .ui.input > input:focus:-ms-input-placeholder {
-  color: #a4adc4;
+  color: #8591b0;
 }
 
 /*--------------------
@@ -20449,27 +20449,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 
 .ui.form :-ms-input-placeholder {
-  color: #c3c9d8 !important;
-}
-
-.ui.form ::-moz-placeholder {
-  color: #c3c9d8;
-}
-
-.ui.form :focus::-webkit-input-placeholder {
-  color: #a4adc4;
-}
-
-.ui.form :focus:-ms-input-placeholder {
   color: #a4adc4 !important;
 }
 
-.ui.form :focus::-moz-placeholder {
+.ui.form ::-moz-placeholder {
   color: #a4adc4;
+}
+
+.ui.form :focus::-webkit-input-placeholder {
+  color: #8591b0;
+}
+
+.ui.form :focus:-ms-input-placeholder {
+  color: #8591b0 !important;
+}
+
+.ui.form :focus::-moz-placeholder {
+  color: #8591b0;
 }
 
 /* Error Placeholder */
@@ -32772,7 +32772,7 @@ select.ui.dropdown {
 }
 
 .ui.active.search.dropdown input.search:focus + .text {
-  color: #a4adc4 !important;
+  color: #8591b0 !important;
 }
 
 /* Search Menu */
@@ -33040,12 +33040,12 @@ select.ui.dropdown {
 
 .ui.dropdown:not(.button) > .default.text,
 .ui.default.dropdown:not(.button) > .text {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 
 .ui.dropdown:not(.button) > input:focus ~ .default.text,
 .ui.default.dropdown:not(.button) > input:focus ~ .text {
-  color: #a4adc4;
+  color: #8591b0;
 }
 
 /*--------------------

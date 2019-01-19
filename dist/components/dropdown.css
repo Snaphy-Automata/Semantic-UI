@@ -608,7 +608,7 @@ select.ui.dropdown {
   opacity: 0.45;
 }
 .ui.active.search.dropdown input.search:focus + .text {
-  color: #a4adc4 !important;
+  color: #8591b0 !important;
 }
 
 /* Search Menu */
@@ -853,11 +853,11 @@ select.ui.dropdown {
 
 .ui.dropdown:not(.button) > .default.text,
 .ui.default.dropdown:not(.button) > .text {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 .ui.dropdown:not(.button) > input:focus ~ .default.text,
 .ui.default.dropdown:not(.button) > input:focus ~ .text {
-  color: #a4adc4;
+  color: #8591b0;
 }
 
 /*--------------------

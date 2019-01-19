@@ -314,22 +314,22 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: #c3c9d8;
+  color: #a4adc4;
 }
 .ui.form :-ms-input-placeholder {
-  color: #c3c9d8 !important;
-}
-.ui.form ::-moz-placeholder {
-  color: #c3c9d8;
-}
-.ui.form :focus::-webkit-input-placeholder {
-  color: #a4adc4;
-}
-.ui.form :focus:-ms-input-placeholder {
   color: #a4adc4 !important;
 }
-.ui.form :focus::-moz-placeholder {
+.ui.form ::-moz-placeholder {
   color: #a4adc4;
+}
+.ui.form :focus::-webkit-input-placeholder {
+  color: #8591b0;
+}
+.ui.form :focus:-ms-input-placeholder {
+  color: #8591b0 !important;
+}
+.ui.form :focus::-moz-placeholder {
+  color: #8591b0;
 }
 
 /* Error Placeholder */
