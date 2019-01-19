@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.2 - Input
+ * # Semantic UI undefined - Input
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -58,13 +58,13 @@
 
 /* browsers require these rules separate */
 .ui.input > input::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #c3c9d8;
 }
 .ui.input > input::-moz-placeholder {
-  color: #ffffff;
+  color: #c3c9d8;
 }
 .ui.input > input:-ms-input-placeholder {
-  color: #ffffff;
+  color: #c3c9d8;
 }
 
 
