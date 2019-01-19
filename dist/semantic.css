@@ -14173,15 +14173,15 @@ img.ui.bordered.image {
 /* browsers require these rules separate */
 
 .ui.input > input::-webkit-input-placeholder {
-  color: #77716c;
+  color: #86807b;
 }
 
 .ui.input > input::-moz-placeholder {
-  color: #77716c;
+  color: #86807b;
 }
 
 .ui.input > input:-ms-input-placeholder {
-  color: #77716c;
+  color: #86807b;
 }
 
 /*******************************
@@ -14266,17 +14266,17 @@ img.ui.bordered.image {
 
 .ui.input.focus > input::-webkit-input-placeholder,
 .ui.input > input:focus::-webkit-input-placeholder {
-  color: #77716c;
+  color: #7f7975;
 }
 
 .ui.input.focus > input::-moz-placeholder,
 .ui.input > input:focus::-moz-placeholder {
-  color: #77716c;
+  color: #7f7975;
 }
 
 .ui.input.focus > input:-ms-input-placeholder,
 .ui.input > input:focus:-ms-input-placeholder {
-  color: #77716c;
+  color: #7f7975;
 }
 
 /*--------------------
@@ -20449,27 +20449,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: #77716c;
+  color: #86807b;
 }
 
 .ui.form :-ms-input-placeholder {
-  color: #77716c !important;
+  color: #86807b !important;
 }
 
 .ui.form ::-moz-placeholder {
-  color: #77716c;
+  color: #86807b;
 }
 
 .ui.form :focus::-webkit-input-placeholder {
-  color: #77716c;
+  color: #7f7975;
 }
 
 .ui.form :focus:-ms-input-placeholder {
-  color: #77716c !important;
+  color: #7f7975 !important;
 }
 
 .ui.form :focus::-moz-placeholder {
-  color: #77716c;
+  color: #7f7975;
 }
 
 /* Error Placeholder */
@@ -32772,7 +32772,7 @@ select.ui.dropdown {
 }
 
 .ui.active.search.dropdown input.search:focus + .text {
-  color: #77716c !important;
+  color: #7f7975 !important;
 }
 
 /* Search Menu */
@@ -33040,12 +33040,12 @@ select.ui.dropdown {
 
 .ui.dropdown:not(.button) > .default.text,
 .ui.default.dropdown:not(.button) > .text {
-  color: #77716c;
+  color: #86807b;
 }
 
 .ui.dropdown:not(.button) > input:focus ~ .default.text,
 .ui.default.dropdown:not(.button) > input:focus ~ .text {
-  color: #77716c;
+  color: #7f7975;
 }
 
 /*--------------------
