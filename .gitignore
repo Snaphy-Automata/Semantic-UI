@@ -2,8 +2,7 @@ node_modules/
 test/coverage/
 coverage/
 src/**/site/
-theme.config
-semantic.json
+# semantic.json
 tasks/**/oauth.js
 
 # Numerous always-ignore extensions
