@@ -29,7 +29,6 @@
           flex: 0 0 auto;
   border-radius: 0.30769231rem;
   -webkit-user-select: text;
-     -moz-user-select: text;
       -ms-user-select: text;
           user-select: text;
   will-change: top, left, margin, transform, opacity;

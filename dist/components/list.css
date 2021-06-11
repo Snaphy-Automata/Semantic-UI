@@ -551,7 +551,6 @@ ul.ui.list li:before,
 .ui.bulleted.list .list > .item:before,
 .ui.bulleted.list > .item:before {
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
@@ -622,7 +621,6 @@ ol.ui.list li:before,
   top: auto;
   left: auto;
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;

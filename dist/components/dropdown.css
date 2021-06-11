@@ -43,7 +43,6 @@
   outline: none;
   top: 100%;
   min-width: -webkit-max-content;
-  min-width: -moz-max-content;
   min-width: max-content;
   margin: 0em;
   padding: 0em 0em;
@@ -662,7 +661,6 @@ select.ui.dropdown {
 /* Selection Label */
 .ui.multiple.dropdown > .label {
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   display: inline-block;

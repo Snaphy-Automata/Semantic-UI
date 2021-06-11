@@ -176,7 +176,6 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */
 }
@@ -674,11 +673,6 @@ a:hover {
   color: #333B4F;
 }
 
-::-moz-selection {
-  background-color: #CCE2FF;
-  color: #333B4F;
-}
-
 ::selection {
   background-color: #CCE2FF;
   color: #333B4F;
@@ -692,69 +686,10 @@ input::-webkit-selection {
   color: #333B4F;
 }
 
-textarea::-moz-selection,
-input::-moz-selection {
-  background-color: rgba(100, 100, 100, 0.4);
-  color: #333B4F;
-}
-
-textarea::-moz-selection,
-input::-moz-selection {
-  background-color: rgba(100, 100, 100, 0.4);
-  color: #333B4F;
-}
-
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #333B4F;
-}
-
-/* Force Simple Scrollbars */
-
-body ::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 10px;
-  height: 10px;
-}
-
-body ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 0px;
-}
-
-body ::-webkit-scrollbar-thumb {
-  cursor: pointer;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.25);
-  -webkit-transition: color 0.2s ease;
-  transition: color 0.2s ease;
-}
-
-body ::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(0, 0, 0, 0.15);
-}
-
-body ::-webkit-scrollbar-thumb:hover {
-  background: rgba(128, 135, 139, 0.8);
-}
-
-/* Inverted UI */
-
-body .ui.inverted::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-body .ui.inverted::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.25);
-}
-
-body .ui.inverted::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-body .ui.inverted::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.35);
 }
 
 /*******************************
@@ -801,7 +736,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   -webkit-box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
@@ -5274,7 +5208,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.justified.container {
   text-align: justify;
-  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
@@ -5309,7 +5242,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   letter-spacing: 0.05em;
   color: rgba(0, 0, 0, 0.85);
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -15027,7 +14959,6 @@ a.ui.label {
   position: relative;
   margin: 0em;
   min-width: -webkit-max-content;
-  min-width: -moz-max-content;
   min-width: max-content;
   border-radius: 0em 0.30769231rem 0.30769231rem 0em;
   border-color: rgba(0, 0, 0, 0.15);
@@ -16746,7 +16677,6 @@ ul.ui.list li:before,
 .ui.bulleted.list .list > .item:before,
 .ui.bulleted.list > .item:before {
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   pointer-events: none;
@@ -16826,7 +16756,6 @@ ol.ui.list li:before,
   top: auto;
   left: auto;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   pointer-events: none;
@@ -22815,7 +22744,6 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .justified.column.column,
 .ui.grid > .row > .justified.column.column {
   text-align: justify;
-  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
@@ -23711,7 +23639,6 @@ ol.ui.horizontal.list li:before,
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   background: none;
@@ -23749,7 +23676,6 @@ ol.ui.horizontal.list li:before,
 .ui.menu .item > a:not(.ui),
 .ui.menu .item > p:only-child {
   -webkit-user-select: text;
-  -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
   line-height: 1.3;
@@ -27510,7 +27436,6 @@ Floated Menu / Item
 .ui.sortable.table thead th.sorted,
 .ui.sortable.table thead th.sorted:hover {
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -31459,7 +31384,6 @@ a.ui.card:hover,
 .ui.checkbox input.hidden + label {
   cursor: pointer;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -31918,7 +31842,6 @@ a.ui.card:hover,
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   will-change: opacity;
@@ -31929,7 +31852,6 @@ a.ui.card:hover,
 
 .ui.dimmer > .content {
   -webkit-user-select: text;
-  -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
   color: #FFFFFF;
@@ -31942,22 +31864,6 @@ a.ui.card:hover,
 }
 
 /* Scrollbars */
-
-.ui.dimmer:not(.inverted)::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.ui.dimmer:not(.inverted)::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.25);
-}
-
-.ui.dimmer:not(.inverted)::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-.ui.dimmer:not(.inverted)::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.35);
-}
 
 /*******************************
             States
@@ -32177,7 +32083,6 @@ body.dimmable > .dimmer {
   outline: none;
   top: 100%;
   min-width: -webkit-max-content;
-  min-width: -moz-max-content;
   min-width: max-content;
   margin: 0em;
   padding: 0em 0em;
@@ -32851,7 +32756,6 @@ select.ui.dropdown {
 
 .ui.multiple.dropdown > .label {
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   display: inline-block;
@@ -33988,7 +33892,6 @@ select.ui.dropdown {
   flex: 0 0 auto;
   border-radius: 0.30769231rem;
   -webkit-user-select: text;
-  -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
   will-change: top, left, margin, transform, opacity;
@@ -34806,7 +34709,6 @@ a.ui.nag {
   right: 0px;
   /* Fixes content being squished when inline (moz only) */
   min-width: -webkit-min-content;
-  min-width: -moz-min-content;
   min-width: min-content;
   z-index: 1900;
   border: 1px solid #D4D4D5;
@@ -37014,7 +36916,6 @@ a.ui.nag {
   display: table;
   text-align: center;
   -webkit-user-select: text;
-  -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
 }
@@ -37851,7 +37752,6 @@ body.pushable > .pusher {
 *******************************/
 
 .ui.native.sticky {
-  position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
